@@ -14,8 +14,6 @@ $(window).bind("load", function() {
         btn.disabled = true;
         if (timer == null) {
             timer = setInterval(decrease, 1000);
-
-
         }
     }
     
